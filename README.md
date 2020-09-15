@@ -53,6 +53,11 @@
     
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/wsl.PNG" alt="logo" /></a>
 
-## Microsoft Store에서 Ubuntu 18.04(마음에드는 Version) 설치
+## Microsoft Store에서 Ubuntu 18.04(마음에드는 Version) 설치 && 컴퓨터 재시작
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu.PNG" alt="logo" /></a>
+
+## Ubuntu 실행 후 설치 대기
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu2.PNG" alt="logo" /></a>
+
