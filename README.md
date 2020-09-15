@@ -52,3 +52,7 @@
         dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
     
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/wsl.PNG" alt="logo" /></a>
+
+## Microsoft Store에서 Ubuntu 18.04(마음에드는 Version) 설치
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu.PNG" alt="logo" /></a>
