@@ -198,3 +198,13 @@
 
 1. code ~/.zshrc
 2. 제일 하단에 ``` alias python=python3.9 ``` 추가
+
+## NVM 설정
+- nvm이란? Node 버전을 관리하게 해주는 것. 아래 코드로 설치 후 Terminal 재시작
+
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+- ~/.zshrc 제일 하단에 아래 코드를 추가하여 zsh에서 NVM을 인식하도록 함.
+
+```export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
