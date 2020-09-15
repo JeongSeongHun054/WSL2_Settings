@@ -135,12 +135,12 @@
 - Terminal 설정에서 "schemes"에 해당 color들 추가
 
 ```
-{"name" : "Monokai Night","background" : "#1f1f1f","foreground" : "#f8f8f8","black" : "#1f1f1f","blue" : "#6699df","cyan" : "#e69f66","green" : "#a6e22e","purple" : "#ae81ff","red" : "#f92672","white" : "#f8f8f2","yellow" : "#e6db74","brightBlack" : "#75715e","brightBlue" : "#66d9ef","brightCyan" : "#e69f66","brightGreen" : "#a6e22e","brightPurple" : "#ae81ff","brightRed" : "#f92672","brightWhite" : "#f8f8f2","brightYellow" : "#e6db74"}
+{"name": "vscode", "background" : "#232323","black" : "#000000","blue" : "#579BD5","brightBlack" : "#797979","brightBlue" : "#9BDBFE","brightCyan" : "#2BC4E2","brightGreen" : "#1AD69C","brightPurple" : "#DF89DD","brightRed" : "#F6645D","brightWhite" : "#EAEAEA","brightYellow" : "#F6F353","cyan" : "#00B6D6","foreground" : "#D3D3D3","green" : "#3FC48A","purple" : "#CA5BC8","red" : "#D8473F","white" : "#EAEAEA","yellow" : "#D7BA7D"}
 ```
 
-- Terminal에서 Profiles에 list 중에서 ubuntu에 해당 코드 추가
+- Terminal에서 "profiles" 에 "defaults" 코드 추가
 
-```"colorScheme": "Monokai Night" ```
+```"colorScheme": "vscode" ```
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu14.PNG" alt="logo" /></a>
 
@@ -187,5 +187,3 @@
 - vscode
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu18.PNG" alt="logo" /></a>
-
-        
