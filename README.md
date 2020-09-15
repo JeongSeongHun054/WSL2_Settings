@@ -212,10 +212,10 @@
     - nvm ls-remote를 통해서 사용가능한 모든 NodeJS 버전확인 LTS(Long-Term-Support) 사용 권장
         - LTS 버전만 보고싶다면?
         ```nvm ls-remote --lts```
-    - 다른 버전을 사용하고 다운받고 싶다면? Version 명을 통해서 설치
+    - 다른 버전을 사용하고 다운받고 싶다면? Version 명을 통해서 설치 & LTS 명을 통해서 설치
     
         ```nvm install v10.21.0``` 
-        
+        ```nvm install --lts=erbium```
     - 다운로드 되어있는 다른 버전의 NodeJS를 사용하고 싶다면?
     
         ```nvm use v12.18.2```
