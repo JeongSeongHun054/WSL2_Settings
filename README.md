@@ -130,3 +130,10 @@
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu13.PNG" alt="logo" /></a>
 
+### Ubuntu Terminal에 Powerlevel10K 적용시키기
+
+- Terminal 설정에서 "schemes"에 해당 color들 추가
+
+```javascript
+{"name" : "Monokai Night","background" : "#1f1f1f","foreground" : "#f8f8f8","black" : "#1f1f1f","blue" : "#6699df","cyan" : "#e69f66","green" : "#a6e22e","purple" : "#ae81ff","red" : "#f92672","white" : "#f8f8f2","yellow" : "#e6db74","brightBlack" : "#75715e","brightBlue" : "#66d9ef","brightCyan" : "#e69f66","brightGreen" : "#a6e22e","brightPurple" : "#ae81ff","brightRed" : "#f92672","brightWhite" : "#f8f8f2","brightYellow" : "#e6db74"}
+```
