@@ -104,3 +104,8 @@
     
     - wsl --set-version Ubuntu-18.04 2
     
+## Terminal 커스텀마이징
+
+### Ubuntu에서 설정 진입 && 만약 The 'Remote-WSL' extension이 나오면 설치!
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu11.PNG" alt="logo" /></a>
