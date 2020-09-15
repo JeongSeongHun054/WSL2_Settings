@@ -134,13 +134,13 @@
 
 - Terminal 설정에서 "schemes"에 해당 color들 추가
 
-```javascript
+```
 {"name" : "Monokai Night","background" : "#1f1f1f","foreground" : "#f8f8f8","black" : "#1f1f1f","blue" : "#6699df","cyan" : "#e69f66","green" : "#a6e22e","purple" : "#ae81ff","red" : "#f92672","white" : "#f8f8f2","yellow" : "#e6db74","brightBlack" : "#75715e","brightBlue" : "#66d9ef","brightCyan" : "#e69f66","brightGreen" : "#a6e22e","brightPurple" : "#ae81ff","brightRed" : "#f92672","brightWhite" : "#f8f8f2","brightYellow" : "#e6db74"}
 ```
 
 - Terminal에서 Profiles에 list 중에서 ubuntu에 해당 코드 추가
 
-```javascript "colorScheme": "Monokai Night" ```
+```"colorScheme": "Monokai Night" ```
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu14.PNG" alt="logo" /></a>
 
@@ -173,7 +173,7 @@
     3. intergrated terminal 입력 후 Terminal > Integrated > Shell: Windows 찾기
     4. Edit in settings.json 클릭
     5. 아래 코드 입력
-        ```javascript "terminal.integrated.shell.windows": "C:\\windows\\System32\\wsl.exe" ```
+        ``` "terminal.integrated.shell.windows": "C:\\windows\\System32\\wsl.exe" ```
 - powerlevel10k 설치 계속 진행
 
         1. (3)번으로 진행
