@@ -153,6 +153,11 @@
 - ZSH_THEME 코드를 찾아서 아래와 같이 수정
 
         ZSH_THEME="powerlevel10k/powerlevel10k"
+        
+- 제일 밑에 아래 코드 추가
+        
+        [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+LS_COLORS="ow=01;36;40" && export LS_COLORS
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu15.PNG" alt="logo" /></a>
 
