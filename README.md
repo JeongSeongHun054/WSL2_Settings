@@ -140,11 +140,11 @@
 
 - Terminal에서 "profiles" 에 "defaults" 코드 추가
 
-```"colorScheme": "vscode" ```
+        "colorScheme": "vscode"
 
 - powerlevel10k 설치
 
-    sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+        sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 - .zshrc 파일 수정(아래 코드 입력)
 
@@ -162,7 +162,7 @@
 
 - Terminal 설정에서 Font 적용(MesloLGS NF), "profiles" 에 "defaults" 코드 추가
 
-```"fontFace": "MesloLGS NF" ```
+        "fontFace": "MesloLGS NF"
     
 
 - VSCode에서도 Font 적용
