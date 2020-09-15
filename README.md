@@ -45,4 +45,8 @@
 
 ## Linux 환경을 쓰지 않고 Windows를 쓴다면 여기까지만 진행!!!!
 
-## Windows Terminal 실행
+## Windows Subsystem for Linux(WSL) 추가
+
+- Windows Terminal을 관리자 권한으로 실행 & 아래 명령이 입력
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/wsl.PNG" alt="logo" /></a>
