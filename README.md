@@ -109,3 +109,24 @@
 ### Ubuntu에서 설정 진입 && 만약 The 'Remote-WSL' extension이 나오면 설치!
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu11.PNG" alt="logo" /></a>
+
+### Windwos Terminal의 기본 Terminal을 ubuntu로 변경
+
+- Ubuntu 18.04에 있는 "guid"의 값을 "defaultProfile"에 넣기
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu12.PNG" alt="logo" /></a>
+
+### Ubuntu Terminal에서 oh my zsh 설치
+
+- zsh 설치
+
+        sudo apt install zsh
+        
+- oh my zsh 설치
+            
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        
+- zsh를 기본 shell로 사용한다고 Y 입력 후 설치 완료
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu13.PNG" alt="logo" /></a>
+
