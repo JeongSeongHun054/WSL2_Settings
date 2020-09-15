@@ -142,8 +142,6 @@
 
 ```"colorScheme": "vscode" ```
 
-<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu14.PNG" alt="logo" /></a>
-
 - powerlevel10k 설치
 
     sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -162,9 +160,10 @@
     1. Terminal에 나오는 모양이 다르다면?
     2. MesloLGS NF 폰트 설치 후 아래 과정 진행
 
-- Terminal 설정에서 Font 적용(MesloLGS NF)
+- Terminal 설정에서 Font 적용(MesloLGS NF), "profiles" 에 "defaults" 코드 추가
 
-<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu16.PNG" alt="logo" /></a>
+```"fontFace": "MesloLGS NF" ```
+    
 
 - VSCode에서도 Font 적용
     
