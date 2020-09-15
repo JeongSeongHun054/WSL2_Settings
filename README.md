@@ -22,7 +22,7 @@
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/powershell.png" alt="logo"/></a>
 
-#### 아래 명령어 복사 후 붙여넣어서 Chocolately 다운로드, 완료 후 Power Shell 재부팅
+#### 아래 명령어 복사 후 붙여넣어서 Chocolately 다운로드, 완료 후 PowerShell 재부팅
 
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
@@ -34,3 +34,8 @@
 ### chocolatey.org/packages 에서 프로그램별 명령어 확인
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/choco2.PNG" alt="logo" /></a>
+
+
+## Chocolatey를 이요한 Python 설치, 완료 후 PowerShell 재부팅, python 명령어 입력 후 확인 
+    choco install python
+    
