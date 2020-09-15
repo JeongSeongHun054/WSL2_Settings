@@ -36,6 +36,9 @@
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/choco2.PNG" alt="logo" /></a>
 
 
-## Chocolatey를 이요한 Python 설치, 완료 후 PowerShell 재부팅, python 명령어 입력 후 확인 
+## Chocolatey를 이용한 Python 설치, 완료 후 PowerShell 재부팅, python 명령어 입력 후 확인 
     choco install python
-    
+
+## Chocolatey를 Terminal 설치
+    choco install microsoft-windows-terminal
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/terminal.PNG" alt="logo" /></a>
