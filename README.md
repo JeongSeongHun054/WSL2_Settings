@@ -183,6 +183,8 @@
        
 ## 설치완료
 
-- vscode
-
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu18.PNG" alt="logo" /></a>
+
+- 만약 powerlevel10k를 다시 설정하고 싶다면? 아래 코드 
+        
+        p10k configure
