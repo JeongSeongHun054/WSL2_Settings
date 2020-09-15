@@ -64,3 +64,24 @@
 ## Linux 사용을 위한 계정입력 후 설치완료
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu3.PNG" alt="logo" /></a>
+
+## WSL2로 Update
+
+- 관리자 권한으로 Terminal 실행 후 아래 코드 입력 && 설치 완료 후 컴퓨터 재시작
+
+        dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+        
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu4.PNG" alt="logo" /></a>
+
+- 기본 버전을 WSL2로 설정
+
+        wsl --set-default-version 2
+        
+- 만약 이런 메세지가 뜬다면 커널 업데이트
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu5.PNG" alt="logo" /></a>
+
+
+### https://aka.ms/wsl2kernel 에 들어가서 아래 링크 클릭
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu6.PNG" alt="logo" /></a>
