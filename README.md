@@ -43,6 +43,6 @@
     choco install microsoft-windows-terminal
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/terminal.PNG" alt="logo" /></a>
 
-## Linux 환경을 쓰지 않고 Windows까지만 쓰고싶다고 하면 여기까지만 진행!!!!!!!!!
+## Linux 환경을 쓰지 않고 Windows를 쓴다면 여기까지만 진행!!!!
 
 ## Windows Terminal 실행
