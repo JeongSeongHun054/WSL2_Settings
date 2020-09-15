@@ -206,5 +206,18 @@
 
 - ~/.zshrc 제일 하단에 아래 코드를 추가하여 zsh에서 NVM을 인식하도록 함.
 
-```export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"```
+        export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+- 사용법
+    - nvm ls-remote를 통해서 사용가능한 모든 NodeJS 버전확인 LTS(Long-Term-Support) 사용 권장
+        - LTS 버전만 보고싶다면?
+            ``````
+    - 다른 버전을 사용하고 다운받고 싶다면? Version 명을 통해서 설치
+    
+        ```nvm install v10.21.0``` 
+        
+    - 다운로드 되어있는 다른 버전의 NodeJS를 사용하고 싶다면?
+    
+        ```nvm use v12.18.2```
+        
+    
