@@ -4,4 +4,4 @@
 ## 2. 필수 소프트웨어 설치
     - Chrome
     - VSCode
-       ![Github logo](/vscode사진.PNG) 
+    <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/vscode%EC%82%AC%EC%A7%84.PNG" alt="logo"/></a>
