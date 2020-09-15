@@ -150,10 +150,37 @@
 
 - .zshrc 파일 수정(아래 코드 입력)
 
-    code ~/.zshrc
+        code ~/.zshrc
     
 - ZSH_THEME 코드를 찾아서 아래와 같이 수정
 
-    ZSH_THEME="powerlevel10k/powerlevel10k"
+        ZSH_THEME="powerlevel10k/powerlevel10k"
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu15.PNG" alt="logo" /></a>
+
+- Ubuntu Terminal 확인!
+    1. Terminal에 나오는 모양이 다르다면?
+    2. MesloLGS NF 폰트 설치 후 아래 과정 진행
+
+- Terminal 설정에서 Font 적용(MesloLGS NF)
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu16.PNG" alt="logo" /></a>
+
+- VSCode에서도 Font 적용
+    
+    1. Ctrl + , 눌러서 VSCode 설정 진입
+    2. Terminal > Intergrated: Font Family에 MesloLGS NF 적용
+
+- powerlevel10k 설치 계속 진행
+
+        1. (3)번으로 진행
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu17.PNG" alt="logo" /></a>
+
+        2. 나머지 계속 진행
+        
+## 설치완료
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu18.PNG" alt="logo" /></a>
+
+        
