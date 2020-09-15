@@ -157,7 +157,7 @@
 - 제일 밑에 아래 코드 추가
         
         [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-LS_COLORS="ow=01;36;40" && export LS_COLORS
+        LS_COLORS="ow=01;36;40" && export LS_COLORS
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu15.PNG" alt="logo" /></a>
 
@@ -193,3 +193,8 @@ LS_COLORS="ow=01;36;40" && export LS_COLORS
 - 만약 powerlevel10k를 다시 설정하고 싶다면? 아래 코드 
         
         p10k configure
+
+## python 기본 version 설정
+
+1. code ~/.zshrc
+2. 제일 하단에 ``` alias python=python3.9 ``` 추가
