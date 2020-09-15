@@ -170,7 +170,10 @@
     
     1. Ctrl + , 눌러서 VSCode 설정 진입
     2. Terminal > Intergrated: Font Family에 MesloLGS NF 적용
-
+    3. intergrated terminal 입력 후 Terminal > Integrated > Shell: Windows 찾기
+    4. Edit in settings.json 클릭
+    5. 아래 코드 입력
+        ```javascript "terminal.integrated.shell.windows": "C:\\windows\\System32\\wsl.exe" ```
 - powerlevel10k 설치 계속 진행
 
         1. (3)번으로 진행
@@ -178,8 +181,10 @@
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu17.PNG" alt="logo" /></a>
 
         2. 나머지 계속 진행
-        
+       
 ## 설치완료
+
+- vscode
 
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu18.PNG" alt="logo" /></a>
 
