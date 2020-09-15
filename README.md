@@ -31,3 +31,6 @@
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/choco.PNG" alt="logo" /></a>
 
 
+### chocolatey.org/packages 에서 프로그램별 명령어 확인
+
+<a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/choco2.PNG" alt="logo" /></a>
