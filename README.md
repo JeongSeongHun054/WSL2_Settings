@@ -96,13 +96,13 @@
 
 ### 아래 명령어로 Ubuntu 이름 확인
 
-    - wsl --list --verbose
+         wsl --list --verbose
     
 <a href="#"><img src="https://github.com/JeongSeongHun054/WSL2_Settings/blob/master/ubuntu8.PNG" alt="logo" /></a>
 
 ### Ubuntu에 WSL2를 사용하도록 설정
     
-    - wsl --set-version Ubuntu-18.04 2
+         wsl --set-version Ubuntu-18.04 2
     
 ## Terminal 커스텀마이징
 
